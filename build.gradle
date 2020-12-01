@@ -4,11 +4,11 @@ plugins {
 }
 
 allure {
-    version = '2.13.2'
+    version = '2.13.7'
     autoconfigure = true
 
     useJUnit5 {
-        version = '2.13.2'
+        version = '2.13.7'
     }
 }
 
@@ -30,7 +30,7 @@ dependencies {
     testImplementation 'com.codeborne:selenide:5.11.0'
     testCompile 'ch.qos.logback:logback-classic:1.2.3'
     testImplementation 'com.github.javafaker:javafaker:1.0.2'
-    testImplementation 'io.qameta.allure:allure-selenide:2.13.3'
+    testImplementation 'io.qameta.allure:allure-selenide:2.13.7'
 }
 
 test {
